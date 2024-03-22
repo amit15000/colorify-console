@@ -2,15 +2,47 @@
   "name": "colorify-console",
   "version": "1.0.0",
   "description": "A library to colorify your console logs",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/amit15000/colorify-console"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "console",
+    "log",
+    "colors",
+    "colorization",
+    "console styling",
+    "text color",
+    "debugging",
+    "development",
+    "CLI",
+    "Node.js",
+    "terminal",
+    "command line",
+    "output styling",
+    "debugging tool",
+    "text formatting",
+    "customizable colors",
+    "ANSI colors",
+    "colorful logs",
+    "log decoration"
+  ],
+  "author": "Amit Kumar <15000amitkumar@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amit15000/colorify-console/issues"
+  },
+  "homepage": "https://github.com/amit15000/colorify-console#readme",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
